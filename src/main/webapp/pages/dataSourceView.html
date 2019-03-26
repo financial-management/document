@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>数据源效果预览</title>
+		<script src='../js/bootTables.js'></script>
+	</head>
+	<body>
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				查询条件效果
+			</div>
+			<div class="panel-body" id="queryParamStyle"></div>
+		</div>
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				展示列表效果
+			</div>
+			<table id="tableStyle"></table>
+		</div>
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				新增页面效果
+			</div>
+			<div class="panel-body" id="insPageStyle"></div>
+		</div>
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				修改页面效果
+			</div>
+			<div class="panel-body" id="updPageStyle"></div>
+		</div>
+
+		<script>
+			var ViewCode = JSON.parse(getSelections())[0]["DATASOURCE_CODE"];
+			var viewTable = new TablesInit($('#tableStyle'),"");
+
+			$(function() {
+				viewTable.initQueryParam($('#queryParamStyle'), paramurl + "&dataSourceCode=" + ViewCode);
+				viewTable.initCols(colurl + "&dataSourceCode=" + ViewCode);
+				viewTable.initMaintainCols($('#insPageStyle'), maintainurl + "&dataSourceCode=" + ViewCode);
+				viewTable.initMaintainCols($('#updPageStyle'), indupdateurl + "&dataSourceCode=" + ViewCode);
+			})
+
+		</script>
+	</body>
+</html>

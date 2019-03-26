@@ -1,0 +1,44 @@
+@charset "UTF-8";
+.txt{
+	min-width:750px;
+}
+.form-control{
+	height:40px;
+}
+.txt_1{
+	background:#0183e1;
+}
+.txt_1 .row_r{
+	padding:30px 0;
+}
+.login_box{
+	width:80%;
+	/* height:90%; */
+	margin:0 auto;
+	background:#fff;
+	padding:50px 10px;
+}
+.login_box h6{
+	text-align: center;
+	color:#0175e2;
+	font-size: 20px;
+}
+.login_box .login_success button{
+	width:100%;
+}
+.login_securityCode div input{
+	width:100%;
+	height: 40px;
+	border:1px solid #ccc;
+	border-radius:3px;
+	box-shadow: 0 1px 1px rgb(0,0,0,.075);
+}
+.padding_cur0{
+	padding-right:0;
+}
+.padding_cur1{
+	padding-left:5px;
+}
+.lightred{
+	color:#ec2085;
+}

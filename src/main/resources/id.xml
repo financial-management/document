@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RmIdFactory 
+	xmlns="http://www.quickbundle.org/schema" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.quickbundle.org/schema http://www.quickbundle.org/schema/id.xsd">
+
+	<!--系统中所有表的主键生成规则-->
+	<table table_code="1000" table_name="CD_METADATA" id_name="ID"/>
+	<table table_code="1001" table_name="CD_METADATA_DETAIL" id_name="ID"/>
+	<table table_code="1002" table_name="CD_DATASOURCE" id_name="ID"/>
+	<table table_code="1003" table_name="CD_SCHEME" id_name="ID"/>
+	<table table_code="1004" table_name="CD_RULE" id_name="ID"/>
+	<table table_code="1005" table_name="CD_SCHEME_RULE" id_name="ID"/>
+	<table table_code="1006" table_name="CD_WORKFLOW" id_name="ID"/>
+	<table table_code="1007" table_name="CD_WORKFLOW_NODE" id_name="ID"/>
+	<table table_code="1008" table_name="CD_SCHEME_FLOWNODE" id_name="ID"/>
+	<table table_code="1009" table_name="CD_CHECK" id_name="ID"/>
+	<table table_code="1010" table_name="CD_CHECK_DETAIL" id_name="ID"/>
+	<table table_code="1011" table_name="CD_CHECK_LOG" id_name="ID"/>
+	
+	<table table_code="1012" table_name="RM_CODE_TYPE" id_name="ID"/>
+	<table table_code="1013" table_name="RM_CODE_DATA" id_name="ID"/>
+	
+	<table table_code="1014" table_name="RA_AD_DAILY_DATA" id_name="ID"/><!--应收差异调整-->
+	<table table_code="1015" table_name="RA_AD_OFFICE_PAY" id_name="ID"/><!--实收差异调整-->
+	<table table_code="1016" table_name="RA_AUDIT_DATA_SUM" id_name="ID"/>
+	<table table_code="1017" table_name="RA_AD_BANK_DETAIL" id_name="ID"/><!--到账款数据管理-->
+	<table table_code="1018" table_name="RA_BASE_PAY_WAY_NAME" id_name="ID"/><!--缴款途径与账号对应管理 -->
+	<table table_code="1019" table_name="RA_BASE_POS" id_name="ID"/><!--POS机管理 -->
+	
+	<!--账户管理 -->
+	<table table_code="1020" table_name="AM_ACTUAL_ACCNTINFO" id_name="ID"/><!--银行账户信息 -->
+	<table table_code="1021" table_name="AM_ACTUAL_ACCNTOPEN" id_name="ID"/><!--银行账户开户申请/回填 -->
+	
+	
+	<!-- 系统管理-->
+	<table table_code="1050" table_name="RM_PARTY" id_name="ID"/><!--团体表 -->
+	<table table_code="1051" table_name="RM_PARTY_RELATION" id_name="ID"/><!--团体关系表 -->
+	<table table_code="1052" table_name="RM_PARTY_ROLE" id_name="ID"/><!--角色团体关系表 -->
+	<table table_code="1053" table_name="RM_PARTY_TYPE" id_name="ID"/><!--团体类型表 -->
+	<table table_code="1054" table_name="RM_PARTY_TYPE_RELATION_RULE" id_name="ID"/><!--团体类型关系规则表 -->
+	<table table_code="1055" table_name="RM_PARTY_VIEW" id_name="ID"/><!--团体视图表 -->
+	<table table_code="1056" table_name="RM_ROLE" id_name="ID"/><!--角色表 -->
+	<table table_code="1057" table_name="RM_ROLE_MUTEX" id_name="ID"/><!--角色互斥表 -->
+	<table table_code="1058" table_name="RM_USER" id_name="ID"/><!--用户表 -->
+	<table table_code="1059" table_name="RM_USER_ONLINE_RECORD" id_name="ID"/><!--用户在线记录 -->
+	<table table_code="1060" table_name="RM_PASSWORD_HISTORY" id_name="ID"/><!--历史密码表 -->
+	<table table_code="1061" table_name="RM_PASSWORD_LOGIN" id_name="ID"/><!--错误登录表 -->
+	<table table_code="1062" table_name="RM_PASSWORD_RISK" id_name="ID"/><!--风险密码表 -->
+	<table table_code="1063" table_name="RM_PASSWORD_STRATEGY" id_name="ID"/><!--密码策略表 -->
+	<table table_code="1064" table_name="RM_PASSWORD_STRATEGY_USER" id_name="ID"/><!--密码策略关联表 -->
+	<table table_code="1065" table_name="RM_QUERY_TEMPLATE" id_name="ID"/><!--查询模板表 -->
+	<table table_code="1066" table_name="RM_QUERY_TEMPLATE_DETAIL" id_name="ID"/><!--查询模板明细表 -->
+	<table table_code="1067" table_name="RM_SYSTEM_PARAMETER" id_name="ID"/><!--系统参数表 -->
+	<table table_code="1068" table_name="TM_COMPANY" id_name="ID"/><!--公司表 -->
+	<table table_code="1069" table_name="TM_DEPARTMENT" id_name="ID"/><!--部门表 -->
+	<table table_code="1070" table_name="TM_EMPLOYEE" id_name="ID"/><!--人员表 -->
+	<table table_code="1071" table_name="RM_AFFIX" id_name="ID"/><!--附件表 -->
+	<table table_code="1072" table_name="RM_APPLICATION_INFO" id_name="ID"/><!--数据库连接数监控表 -->
+	<table table_code="1073" table_name="RM_AUTHORIZE" id_name="ID"/><!--权限类别表 -->
+	<table table_code="1074" table_name="RM_AUTHORIZE_RESOURCE" id_name="ID"/><!--授权资源表 -->
+	<table table_code="1075" table_name="RM_AUTHORIZE_RESOURCE_RECORD" id_name="ID"/><!--授权记录表 -->
+	<table table_code="1076" table_name="RM_BPM_BILL_DEFINE" id_name="ID"/><!--流程单据定义表 -->
+	<table table_code="1077" table_name="RM_BPM_DEFINE" id_name="ID"/><!--流程定义表 -->
+	<table table_code="1078" table_name="RM_BPM_DEFINE_RELATED" id_name="ID"/><!--流程定义相关表 -->
+	<table table_code="1079" table_name="RM_BPM_DEFINE_START_AUTH" id_name="ID"/><!--流程定义发起权限表 -->
+	<table table_code="1080" table_name="RM_BPM_DELEGATE" id_name="ID"/><!--流程委派表 -->
+	<table table_code="1081" table_name="RM_BPM_INSTANCE" id_name="ID"/><!--流程实例表 -->
+	<table table_code="1082" table_name="RM_BPM_INSTANCE_TASK" id_name="ID"/><!--流程实例任务表 -->
+	<table table_code="1083" table_name="RM_BPM_TYPE" id_name="ID"/><!--流程业务类型表 -->
+	<table table_code="1084" table_name="RM_BPM_TYPE_ENUM" id_name="ID"/><!--流程业务状态枚举表 -->
+	<table table_code="1085" table_name="RM_CAPITAL_OCCUPY" id_name="ID"/><!--手工占用表 -->
+	<table table_code="1086" table_name="RM_FUNC_FREQUENCY" id_name="ID"/><!--功能节点使用情况统计表 -->
+	<table table_code="1087" table_name="RM_FUNCTION_NODE" id_name="ID"/><!--功能节点表 -->
+	<table table_code="1088" table_name="RM_LOCK" id_name="ID"/><!--业务锁表 -->
+	<table table_code="1089" table_name="RM_LOG" id_name="ID"/><!--日志表 -->
+	<table table_code="1090" table_name="RM_LOG_TYPE" id_name="ID"/><!--日志类型表 -->
+	<table table_code="1091" table_name="RM_NOTICE" id_name="ID"/><!--公告表 -->
+	<table table_code="1092" table_name="RM_NOTICE_RANGE" id_name="ID"/><!--公告范围表 -->
+	<table table_code="1093" table_name="RM_OFFICE_PARTY_RELATION" id_name="ID"/><!--营业厅组织关系表 -->
+	
+	
+	
+	
+	<table table_code="3333" table_name="RM_BUTTON" id_name="ID"/>
+	<table table_code="4444" table_name="RM_BUTTON_RELATION_MENU" id_name="ID"/>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</RmIdFactory>
+
+    
+	

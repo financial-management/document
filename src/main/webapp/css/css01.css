@@ -1,0 +1,456 @@
+@charset "UTF-8";
+
+
+.main{
+	margin-left: 233px;
+	padding: 0 15px;
+}
+.button-menu{
+	border: 1px solid #dedede;
+	background-color: #fff;
+	padding: 20px 20px;
+}
+.button-menu .button-group{
+	display: inline-block;
+	margin: 0 15px;
+	cursor: pointer;
+}
+.button-menu .button-group span{
+	color: #999;
+}
+.button-menu .button-group .img{
+	display: block;
+	width: 35px;
+	height: 35px;
+	margin: 0 auto;
+}
+.button-menu .button-group.xz .img{
+	background: url('../images/u97.png') no-repeat;
+}
+.button-menu .button-group.ad .img{
+	background: url('../images/add.png') no-repeat;
+}
+.button-menu .button-group.up .img{
+	background: url('../images/up.png') no-repeat;
+}
+.button-menu .button-group.de .img{
+	background: url('../images/del.png') no-repeat;
+}
+.button-menu .button-group.su .img{
+	background: url('../images/sub.png') no-repeat;
+}
+.button-menu .button-group.au .img{
+	background: url('../images/au.png') no-repeat;
+}
+.button-menu .button-group.f .img{
+	background: url('../images/f.png') no-repeat;
+}
+.button-menu .button-group.sel .img{
+	background: url('../images/20.png') no-repeat;
+}
+.button-menu .button-group.xgbr .img{
+	background: url('../images/button/btn001.png') no-repeat;
+}
+.button-menu .button-group.ansq .img{
+	background: url('../images/button/btn002.png') no-repeat;
+}
+.button-menu .button-group.bind .img{
+	background: url('../images/button/btn003.png') no-repeat;
+}
+.button-menu .button-group.save .img{
+	background: url('../images/button/btn004.png') no-repeat;
+}
+.button-menu .button-group.saveSuper .img{
+	background: url('../images/button/btn005.png') no-repeat;
+}
+.button-menu .button-group.bgsqd .img{
+	background: url('../images/button/btn006.png') no-repeat;
+}
+.button-menu .button-group.bhbz .img{
+	background: url('../images/button/btn008.png') no-repeat;
+}
+.button-menu .button-group.bjqh .img{
+	background: url('../images/button/btn009.png') no-repeat;
+}
+.button-menu .button-group.ck .img{
+	background: url('../images/button/btn010.png') no-repeat;
+}
+.button-menu .button-group.ckgxs .img{
+	background: url('../images/button/btn011.png') no-repeat;
+}
+.button-menu .button-group.ckmx .img{
+	background: url('../images/button/btn012.png') no-repeat;
+}
+.button-menu .button-group.cksm .img{
+	background: url('../images/button/btn013.png') no-repeat;
+}
+.button-menu .button-group.cxgd .img{
+	background: url('../images/button/btn014.png') no-repeat;
+}
+.button-menu .button-group.clwc .img{
+	background: url('../images/button/btn015.png') no-repeat;
+}
+.button-menu .button-group.store .img{
+	background: url('../images/button/btn016.png') no-repeat;
+}
+.button-menu .button-group.print .img{
+	background: url('../images/button/btn017.png') no-repeat;
+}
+.button-menu .button-group.export .img{
+	background: url('../images/button/btn018.png') no-repeat;
+}
+.button-menu .button-group.exportCur .img{
+	background: url('../images/button/btn019.png') no-repeat;
+}
+.button-menu .button-group.exportAll .img{
+	background: url('../images/button/btn020.png') no-repeat;
+}
+.button-menu .button-group.import .img{
+	background: url('../images/button/btn021.png') no-repeat;
+}
+.button-menu .button-group.djsqd .img{
+	background: url('../images/button/btn022.png') no-repeat;
+}
+.button-menu .button-group.back .img{
+	background: url('../images/button/btn023.png') no-repeat;
+}
+.button-menu .button-group.fzbh .img{
+	background: url('../images/button/btn024.png') no-repeat;
+}
+.button-menu .button-group.chgeBaseInfo .img{
+	background: url('../images/button/btn025.png') no-repeat;
+}
+.button-menu .button-group.ggkzxx .img{
+	background: url('../images/button/btn027.png') no-repeat;
+}
+.button-menu .button-group.recovery .img{
+	background: url('../images/button/btn029.png') no-repeat;
+}
+.button-menu .button-group.backfill .img{
+	background: url('../images/button/btn030.png') no-repeat;
+}
+.button-menu .button-group.htxhrq .img{
+	background: url('../images/button/btn032.png') no-repeat;
+}
+.button-menu .button-group.activate .img{
+	background: url('../images/button/btn033.png') no-repeat;
+}
+.button-menu .button-group.checkData .img{
+	background: url('../images/button/btn034.png') no-repeat;
+}
+.button-menu .button-group.roleSet .img{
+	background: url('../images/button/btn035.png') no-repeat;
+}
+.button-menu .button-group.unBind .img{
+	background: url('../images/button/btn036.png') no-repeat;
+}
+.button-menu .button-group.klhtd .img{
+	background: url('../images/button/btn037.png') no-repeat;
+}
+.button-menu .button-group.lxsj .img{
+	background: url('../images/button/btn038.png') no-repeat;
+}
+.button-menu .button-group.lcdj .img{
+	background: url('../images/button/btn039.png') no-repeat;
+}
+.button-menu .button-group.lchtd .img{
+	background: url('../images/button/btn040.png') no-repeat;
+}
+.button-menu .button-group.lcspl .img{
+	background: url('../images/button/btn041.png') no-repeat;
+}
+.button-menu .button-group.mmcl .img{
+	background: url('../images/button/btn042.png') no-repeat;
+}
+.button-menu .button-group.mmcz .img{
+	background: url('../images/button/btn043.png') no-repeat;
+}
+.button-menu .button-group.detailList .img{
+	background: url('../images/button/btn044.png') no-repeat;
+}
+.button-menu .button-group.mh .img{
+	background: url('../images/button/btn045.png') no-repeat;
+}
+.button-menu .button-group.nrzdgjtx .img{
+	background: url('../images/button/btn046.png') no-repeat;
+}
+.button-menu .button-group.pldr .img{
+	background: url('../images/button/btn047.png') no-repeat;
+}
+.button-menu .button-group.plht .img{
+	background: url('../images/button/btn048.png') no-repeat;
+}
+.button-menu .button-group.clear .img{
+	background: url('../images/button/btn049.png') no-repeat;
+}
+.button-menu .button-group.empty .img{
+	background: url('../images/button/btn050.png') no-repeat;
+}
+.button-menu .button-group.cancel .img{
+	background: url('../images/button/btn051.png') no-repeat;
+}
+.button-menu .button-group.qrsx .img{
+	background: url('../images/button/btn052.png') no-repeat;
+}
+.button-menu .button-group.qrzf .img{
+	background: url('../images/button/btn053.png') no-repeat;
+}
+.button-menu .button-group.qrzx .img{
+	background: url('../images/button/btn054.png') no-repeat;
+}
+.button-menu .button-group.delete .img{
+	background: url('../images/button/btn055.png') no-repeat;
+}
+.button-menu .button-group.syb .img{
+	background: url('../images/button/btn056.png') no-repeat;
+}
+.button-menu .button-group.syh .img{
+	background: url('../images/button/btn057.png') no-repeat;
+}
+.button-menu .button-group.szhcjs .img{
+	background: url('../images/button/btn058.png') no-repeat;
+}
+.button-menu .button-group.sczfqrd .img{
+	background: url('../images/button/btn059.png') no-repeat;
+}
+.button-menu .button-group.sycs .img{
+	background: url('../images/button/btn060.png') no-repeat;
+}
+.button-menu .button-group.sddz .img{
+	background: url('../images/button/btn061.png') no-repeat;
+}
+.button-menu .button-group.sgxz .img{
+	background: url('../images/button/btn062.png') no-repeat;
+}
+.button-menu .button-group.firstRow .img{
+	background: url('../images/button/btn063.png') no-repeat;
+}
+.button-menu .button-group.grant .img{
+	background: url('../images/button/btn064.png') no-repeat;
+}
+.button-menu .button-group.searcher .img{
+	background: url('../images/button/btn065.png') no-repeat;
+}
+.button-menu .button-group.lock .img{
+	background: url('../images/button/btn066.png') no-repeat;
+}
+.button-menu .button-group.subToFin .img{
+	background: url('../images/button/btn067.png') no-repeat;
+}
+.button-menu .button-group.subToBank .img{
+	background: url('../images/button/btn068.png') no-repeat;
+}
+.button-menu .button-group.addRole .img{
+	background: url('../images/button/btn069.png') no-repeat;
+}
+.button-menu .button-group.addUser .img{
+	background: url('../images/button/btn070.png') no-repeat;
+}
+.button-menu .button-group.tyxgyl .img{
+	background: url('../images/button/btn071.png') no-repeat;
+}
+.button-menu .button-group.wybl .img{
+	background: url('../images/button/btn072.png') no-repeat;
+}
+.button-menu .button-group.wlAdd .img{
+	background: url('../images/button/btn073.png') no-repeat;
+}
+.button-menu .button-group.wlUpdate .img{
+	background: url('../images/button/btn074.png') no-repeat;
+}
+.button-menu .button-group.nextStep .img{
+	background: url('../images/button/btn075.png') no-repeat;
+}
+.button-menu .button-group.nextRow .img{
+	background: url('../images/button/btn076.png') no-repeat;
+}
+.button-menu .button-group.xxzf .img{
+	background: url('../images/button/btn077.png') no-repeat;
+}
+.button-menu .button-group.xhsqd .img{
+	background: url('../images/button/btn078.png') no-repeat;
+}
+.button-menu .button-group.add .img{
+	background: url('../images/button/btn079.png') no-repeat;
+}
+.button-menu .button-group.addDept .img{
+	background: url('../images/button/btn080.png') no-repeat;
+}
+.button-menu .button-group.addMenu .img{
+	background: url('../images/button/btn081.png') no-repeat;
+}
+.button-menu .button-group.addCompany .img{
+	background: url('../images/button/btn082.png') no-repeat;
+}
+.button-menu .button-group.addQuota .img{
+	background: url('../images/button/btn083.png') no-repeat;
+}
+.button-menu .button-group.update .img{
+	background: url('../images/button/btn084.png') no-repeat;
+}
+.button-menu .button-group.xgbjg .img{
+	background: url('../images/button/btn085.png') no-repeat;
+}
+.button-menu .button-group.updateAll .img{
+	background: url('../images/button/btn086.png') no-repeat;
+}
+.button-menu .button-group.yzxxtbzt .img{
+	background: url('../images/button/btn087.png') no-repeat;
+}
+.button-menu .button-group.detail .img{
+	background: url('../images/button/btn088.png') no-repeat;
+}
+.button-menu .button-group.userSetting .img{
+	background: url('../images/button/btn089.png') no-repeat;
+}
+.button-menu .button-group.preview .img{
+	background: url('../images/button/btn090.png') no-repeat;
+}
+.button-menu .button-group.ysjzd .img{
+	background: url('../images/button/btn091.png') no-repeat;
+}
+.button-menu .button-group.onlineSel .img{
+	background: url('../images/button/btn092.png') no-repeat;
+}
+.button-menu .button-group.infoSynERP .img{
+	background: url('../images/button/btn093.png') no-repeat;
+}
+.button-menu .button-group.payment .img{
+	background: url('../images/button/btn094.png') no-repeat;
+}
+.button-menu .button-group.draw .img{
+	background: url('../images/button/btn095.png') no-repeat;
+}
+.button-menu .button-group.review .img{
+	background: url('../images/button/btn096.png') no-repeat;
+}
+.button-menu .button-group.reset .img{
+	background: url('../images/button/btn097.png') no-repeat;
+}
+.button-menu .button-group.resetAll .img{
+	background: url('../images/button/btn098.png') no-repeat;
+}
+.button-menu .button-group.autoRec .img{
+	background: url('../images/button/btn099.png') no-repeat;
+}
+.button-menu .button-group.void .img{
+	background: url('../images/button/btn100.png') no-repeat;
+}
+.button-menu .button-group.ccgc .img{
+	background: url('../images/button/btn101.png') no-repeat;
+}
+.button-menu .button-group.dzzf .img{
+	background: url('../images/button/btn102.png') no-repeat;
+}
+.button-menu .button-group.gtzf .img{
+	background: url('../images/button/btn103.png') no-repeat;
+}
+.button-menu .button-group.lingy .img{
+	background: url('../images/button/btn104.png') no-repeat;
+}
+.button-menu .button-group.njsh .img{
+	background: url('../images/button/btn105.png') no-repeat;
+}
+.button-menu .button-group.unExport .img{
+	background: url('../images/button/btn106.png') no-repeat;
+}
+.button-menu .button-group.confirm .img{
+	background: url('../images/button/btn107.png') no-repeat;
+}
+.button-menu .button-group.setting .img{
+	background: url('../images/button/btn108.png') no-repeat;
+}
+.button-menu .button-group.stop .img{
+	background: url('../images/button/btn109.png') no-repeat;
+}
+.button-menu .button-group.return .img{
+	background: url('../images/button/btn110.png') no-repeat;
+}
+.button-menu .button-group.xgyl .img{
+	background: url('../images/button/btn111.png') no-repeat;
+}
+.button-menu .button-group.lost .img{
+	background: url('../images/button/btn112.png') no-repeat;
+}
+.button-menu .button-group.zdbh .img{
+	background: url('../images/button/btn113.png') no-repeat;
+}
+
+
+
+
+
+
+.input-box-toggle{
+	text-align: center;
+	color: #32adfa;
+	cursor: pointer;
+}
+
+
+.button-menu .button-group.xg .img{
+	background: url('../images/u97.png') no-repeat;
+}
+.button-menu .button-group.sc .img{
+	background: url('../images/u97.png') no-repeat;
+}
+.button-menu .button-group.tj .img{
+	background: url('../images/u97.png') no-repeat;
+}
+.button-menu .button-group.sp .img{
+	background: url('../images/u97.png') no-repeat;
+}
+.button-menu .button-group.fz .img{
+	background: url('../images/u97.png') no-repeat;
+}
+.button-menu .button-group.hs .img{
+	background: url('../images/u97.png') no-repeat;
+}
+.button-menu .button-group.lcsp .img{
+	background: url('../images/u97.png') no-repeat;
+}
+.button-menu .button-group.lcht .img{
+	background: url('../images/u97.png') no-repeat;
+}
+.button-menu .button-group.dy .img{
+	background: url('../images/u97.png') no-repeat;
+}
+.button-menu .button-group.sx .img{
+	background: url('../images/u97.png') no-repeat;
+}
+.searchbox{
+	background-color: #fff;
+	border: 1px solid #dedede;
+	padding: 10px 20px;
+	margin-top: 20px;
+	color: #333;
+}
+.searchbox .m-row{
+	padding: 10px 0;
+	border-bottom: 1px dashed #ccc;
+}
+.m-row span{
+	cursor: pointer;
+	margin-right: 10px;
+	display: inline-block;
+	min-width: 10px;
+	padding: 6px 11px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1;
+}
+.m-row span.badge,.m-row span:hover{
+		display: inline-block;
+    min-width: 10px;
+    padding: 6px 11px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #e40177;
+    border-radius: 5px;
+}
+

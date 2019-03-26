@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/**
+ * @authors HXL (you@example.org)
+ * @date    2016-05-27 10:22:25
+ * @version $Id$
+**/
+ul,ol{
+	list-style: none;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+dl{
+	margin-bottom: 0;
+}
+.glyphicon {
+	color:#00a3f8;
+	font-size: 16px;
+	vertical-align: middle;
+}
+.txt_red{
+	color:red;
+}
+.index_topBox{
+	background:#eee;
+}
+.index_top{
+	min-height:35px;
+	padding:7px 0;
+	
+}
+.index_top ul li{
+	float:left;
+	padding:0 10px;
+	border-right:1px solid #ccc;
+	text-align: center;
+	/* width:25%; */
+}
+.logo_img img{
+	margin:6px 0;
+}
+/* nav样式 */
+.navbar-default .navbar-collapse.in{
+	background: #eee;
+	position: relative;
+	z-index:100;
+
+}
+.navbar_box{
+	height:60px;
+}
+.navbar-default{
+	border:0;
+	background: transparent;
+}
+.nav{
+	padding:10px 0;
+}
+.nav li{
+	margin-left: 4px;
+}
+.nav li dt{
+	text-align: center;
+}
+.nav li dt span{
+	color:#00a3f8;
+	font-size: 16px;
+}
+.nav li dd{
+	text-align: center;
+}
+.nav li dd a{
+	color:#666;
+	font-size: 12px;
+}
+/* 导航css */
+.nav_box{
+	background: -webkit-linear-gradient(#298deb, #2270c2); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#298deb, #2270c2); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#298deb, #2270c2); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#298deb, #2270c2); /* 标准的语法 */
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#298deb,endColorstr=#2270c2,grandientType=1);
+}
+.nav_box li{
+	float:left;
+	height:40px;
+	line-height: 40px;
+	padding:0 15px;
+}
+.nav_box li:hover{
+	background: #8fc320;
+}
+.nav_box li.li_act{
+	background: #8fc320;
+}
+.nav_box li a{
+	color:#fff;
+}
+.carousel_l{
+	position: absolute;
+	left:14%;
+	top:0;
+	bottom:0;
+	width:230px;
+	background: #fff;
+	height:100%;
+	
+}
+.carousel_l header{
+	padding:5px 10px;
+	border-bottom: 1px solid blue;
+}
+.carousel_l header a{
+	color:#666;
+	font-family: "宋体";
+	font-size: 12px;
+}
+.carousel_l ul{
+	padding:10px 5px 0;
+}
+.carousel_l ul li{
+	height:30px;
+}
+.carousel_l ul li span{
+	float:left;
+	max-width: 160px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.carousel_r{
+	position: absolute;
+	right:16%;
+	top:0;
+	bottom:0;
+	width:230px;
+	background: #fff;
+	height:100%;
+}
+.carousel_r ul li{
+	width:30%;
+	float:left;
+	text-align: center;
+	margin:3px;
+}
+.carousel_r ul li dt{
+	text-align: center;
+}
+.carousel_r ul li dd{
+	text-align: center;
+}
+.carousel_r ul li dd a{
+	height:30px;
+	line-height: 30px;
+	color:#333;
+}
+/* item_scroll样式 */
+.item_box{
+	position: relative;
+	overflow: hidden;
+	height:255px;
+}
+.item_scroll{
+	height:255px;
+	width:20000px;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.item_scroll li{
+	width:280px;
+	float:left;
+}
+.item_box p{
+	width:30px;
+	height:50px;
+	text-align: center;
+	line-height: 50px;
+	font:normal 32px/50px "微软雅黑";
+	color:#fff;
+	background: #eee;
+	position: absolute;
+	cursor: pointer;
+}
+.item_box p:hover{
+	background: #ccc;
+}
+.item_box p.left_btn{
+	
+	left:0;
+	top:50%;
+	margin-top:-25px;
+}
+.item_box p.right_btn{
+	right:0;
+	top:50%;
+	margin-top:-25px;
+}
+/* footer样式 */
+.footer{
+	padding:20px 0;
+}
+.footer .table_cell{
+	text-align: center;
+	vertical-align: middle;
+	width:100%;
+}
+.footer ul{
+	display:inline-block;
+}
+.footer ul li{
+	float:left;
+}
+.footer ul li a{
+	padding:0 5px;
+	border-right:1px solid #ccc;
+	color:#333;
+}
+.table{
+	width:100%;
+	text-align: center;
+	vertical-align: middle;
+}
+.footer p{
+	text-align: center;
+}

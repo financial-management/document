@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+      http://www.springframework.org/schema/beans/spring-beans.xsd 
+      http://code.alibabatech.com/schema/dubbo
+      http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!-- dubbo 配置 -->
+    <dubbo:application name="${dubbo.provider.application.name}"/>
+    <dubbo:registry address="${dubbo.provider.registry.address}"/>
+    <dubbo:protocol name="${dubbo.provider.protocol.name}" host="${dubbo.provider.protocol.host}" port="${dubbo.provider.protocol.port}"/>
+
+    <dubbo:monitor protocol="registry"></dubbo:monitor>
+
+    <!-- 生产者声明 -->
+    <bean id="iApiService" class="com.yonyou.web.IApiDubboService"/>
+    <dubbo:service interface="com.yonyou.web.IApiService"
+                   ref="iApiService" version="0.1" retries="0" timeout="5000"
+                   loadbalance="${dubbo.provider.service.loadbalance}" filter="logcontext"/>
+                   
+                                    
+
+</beans>

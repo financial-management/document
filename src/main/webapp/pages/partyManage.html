@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<title>组织管理</title>
+		<link rel="stylesheet" href="../vendor/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../vendor/bootstrap-table/src/bootstrap-table.css">
+		<script src="../vendor/jquery/jquery.min.js"></script>
+		<script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="../vendor/bootstrap-table/src/bootstrap-table.js"></script>
+		<script src="js/bootTable.js"></script>
+	</head>
+	<body>
+		<form>
+			<div class="col-md-12">
+				<ul id="myTab" class="nav nav-tabs">
+					<li class="active">
+						<a href="#portalManagement" data-toggle="tab">门户系统组织</a>
+					</li>
+					<li>
+						<a href="#fundBusinessManagement" data-toggle="tab">资金业务主体关系</a>
+					</li>
+					<li>
+						<a href="#fundManagement" data-toggle="tab">资金管理系统组织</a>
+					</li>
+				</ul>
+			</div>
+		</br>
+			<div class="col-md-12">
+				<div class="tab-content">
+					<div class="tab-pane fade in active" id='portalManagement'>
+						该功能暂未开发！
+						<!--<iframe src="portalManagement.jsp" scrolling="yes" frameborder="0"  width="99%" height="1000"></iframe>-->
+					</div>
+					<div class="tab-pane fade" id='fundBusinessManagement'>
+						该功能暂未开发！
+					</div>
+					<div class="tab-pane fade" id='fundManagement'>
+						<iframe src="partyMain.jsp" id="FrameID" scrolling="yes" frameborder="0"  width="99%" height="1000"></iframe>
+					</div>
+				</div>
+			</div>
+			
+		</form>
+
+	</body>
+	<script type="text/javascript">
+		$(function() {
+				//showdiv();
+				$('#myTab a[href="#fundManagement"]').tab('show');
+			});
+      function  showdiv(str){
+            $('#myTab a[href="#metaDate"]').tab('show');
+       } 
+       
+       function refreshFrame(){
+       	  //alert("super1");
+       	  document.getElementById('FrameID').contentWindow.location.reload(true);
+       	  // alert("super2");
+       	
+       }
+  	</script>
+</html>
