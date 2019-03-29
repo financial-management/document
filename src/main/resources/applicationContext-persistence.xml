@@ -52,14 +52,14 @@
  	<bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean" />
     
 	<!-- 数据源配置, 使用Tomcat JDBC连接池 -->
-	<bean id="dataSource" class="org.apache.tomcat.jdbc.pool.DataSource" destroy-method="close">
-		<!-- Connection Info -->
+	<!-- <bean id="dataSource" class="org.apache.tomcat.jdbc.pool.DataSource" destroy-method="close">
+		Connection Info
 		<property name="driverClassName" value="${jdbc.driver}" />
 		<property name="url" value="${jdbc.url}" />
 		<property name="username" value="${jdbc.username}" />
 		<property name="password" value="${jdbc.password}" />
 	
-		<!-- Connection Pooling Info -->
+		Connection Pooling Info
 		<property name="maxActive" value="${jdbc.pool.maxActive}" />
 		<property name="maxIdle" value="${jdbc.pool.maxIdle}" />
 		<property name="minIdle" value="0" />
@@ -69,8 +69,24 @@
 		<property name="minEvictableIdleTimeMillis" value="${jdbc.pool.minEvictableIdleTimeMillis}" />
 		<property name="removeAbandoned" value="${jdbc.pool.removeAbandoned}" />
 		<property name="removeAbandonedTimeout" value="${jdbc.pool.removeAbandonedTimeout}" />
-	</bean>
+	</bean> -->
 
+	<!-- 数据源配置, 使用HikariCP JDBC连接池 -->
+	<bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource" destroy-method="shutdown">
+		<!-- Connection Info -->
+		<property name="driverClassName" value="${jdbc.driver}" />
+		<property name="jdbcUrl" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+		<!-- Connection Pooling Info -->
+		<property name="connectionTimeout" value="${config.connection.timeout}" />
+		<property name="validationTimeout" value="${config.validation.timeout}" />
+		<property name="idleTimeout" value="${config.idle.timeout}" />
+		<property name="maxLifetime" value="${config.max.life.time}" />
+		<property name="maximumPoolSize" value="${config.max.pool.size}" />
+		<property name="minimumIdle" value="${config.min.idle}"/>
+	</bean>
+	
 	<bean id="crossdbDataSource" class="com.yonyou.iuap.persistence.bs.framework.ds.CrossdbDataSource">
 		<constructor-arg name="dataSource" ref="dataSource"/>
 	</bean>
